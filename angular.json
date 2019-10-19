@@ -21,12 +21,15 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/video/videotest.mp4"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/libs/opencv/opencv.js"
+            ]
           },
           "configurations": {
             "production": {

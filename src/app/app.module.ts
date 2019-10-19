@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OpencvComponent } from './opencv/opencv.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OpencvComponent
   ],
   imports: [
     BrowserModule,
